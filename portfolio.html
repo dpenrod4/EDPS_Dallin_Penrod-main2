@@ -1,27 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Work | Your Name</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Work | Dallin Penrod</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
 </head>
 <body>
-  <h1>My Portfolio</h1>
-  <p>Here’s a showcase of my best projects.</p>
-<section id="project1">
-  <h2>Project 1: Video Showcase</h2>
-  <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/MVoyeLifLAQ?si=4AEoTyykeI6QjR7v"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
-</section>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Dallin Penrod</a>
+    <div class="ml-auto">
+      <a class="nav-link d-inline text-white" href="index.html#about">About</a>
+      <a class="nav-link d-inline text-white" href="portfolio.html">Portfolio</a>
+      <a class="nav-link d-inline text-white" href="index.html#contact">Contact</a>
+    </div>
+  </nav>
 
+  <div class="container my-5">
+    <h1 class="text-center mb-4">My Portfolio</h1>
+    <p class="text-center">Here’s a showcase of my best projects.</p>
 
-  <!-- Add project links, images, or descriptions here -->
-  <a href="index.html">Back to Home</a>
+    <section id="project1" class="text-center my-4">
+      <h2>Project 1: Video Showcase</h2>
+      <div class="embed-responsive embed-responsive-16by9 my-3">
+        <iframe class="embed-responsive-item"
+          src="https://www.youtube.com/embed/MVoyeLifLAQ?si=4AEoTyykeI6QjR7v"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p>Description: I Am Anxious teaches children about anxiety and what it feels like.</p>
+    </section>
+
+    <!-- More projects can go here -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <a href="index.html" class="text-white">← Back to Home</a><br>
+    &copy; 2025 Dallin Penrod. All rights reserved.
+  </footer>
+
 </body>
 </html>
+
